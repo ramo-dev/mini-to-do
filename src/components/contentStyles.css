@@ -1,0 +1,98 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    border:1px solid rgba(128, 128, 128, 0.274);
+    align-items: center;
+    gap:3rem;
+    padding: 3rem;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+}
+.notes{
+    width:100%;
+    height: 56vh;
+    padding:0 20px;
+    border:1px solid rgba(128, 128, 128, 0.274);
+    border-radius: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.notes::-webkit-scrollbar{
+    width: 5px;
+}
+.notes::-webkit-scrollbar-button{
+    background: inherit;
+}
+.notes::-webkit-scrollbar-thumb {
+    background-color:rgba(245, 245, 220, 0.678);
+    border-radius: 5px;
+  }
+
+.notes hr{
+    width:90%
+}
+.content{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    height: 53vh;
+    padding: 10px;
+    border:1px solid rgba(128, 128, 128, 0.274);
+    border-radius: inherit;
+}
+.content input{
+    display: flex;
+    align-items: flex-start;
+    text-align: start;
+    font-size: 1.5rem;
+    padding-bottom: 180px;
+    white-space: wrap;
+    flex-wrap: wrap;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.11);
+}
+.content input:active{
+    border:none
+}
+.noteDetail{
+    border:1px solid rgba(128, 128, 128, 0.274);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    width:45vh;
+    padding: 10px;
+    align-items: center;
+    margin: 10px;
+    
+}
+.noteDetail p{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 35vh;
+
+
+}
+.noteDetail button{
+    width:70px;
+    height:35px;
+    padding: 3px;
+    background-color: crimson;
+}
+.custom-toast {
+    background-color: #4caf50;
+    color: #fff;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  
+  .custom-toast-error {
+    background-color: #f44336;
+  }
+  
