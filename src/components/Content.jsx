@@ -51,7 +51,21 @@ const Content = () => {
                     <button type="submit">Add Note</button>
                 </form>
             </div>
-            <ToastContainer />
+            <ToastContainer
+                 toastClassName={{
+                    success: 'custom-toast',
+                    error: 'custom-toast-error'
+                }}
+                position="top-right"
+                autoClose={2000}
+                hideProgressBar
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+            />
         </div>
     );
 }

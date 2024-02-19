@@ -84,15 +84,5 @@
     padding: 3px;
     background-color: crimson;
 }
-.custom-toast {
-    background-color: #4caf50;
-    color: #fff;
-    border-radius: 8px;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-  }
-  
-  .custom-toast-error {
-    background-color: #f44336;
-  }
+
   
